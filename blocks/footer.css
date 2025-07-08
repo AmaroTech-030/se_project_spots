@@ -1,0 +1,22 @@
+.footer {
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer__copyright {
+    height: 16px;
+    width: 106px;
+    margin: auto;
+    padding: 60px 0 60px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #212121;
+    opacity: 70%;
+}
+
+@media screen and (max-width: 627px) {
+.footer__copyright {
+    
+}    
+}
