@@ -2,7 +2,7 @@
 display: flex;
 max-width: 1280px;
 margin: 0 auto;
-border-bottom: 1px black solid;
+border-bottom: 1px #21212166 solid;
 padding: 34px 0 20px 0;
 }
 
@@ -13,6 +13,7 @@ padding: 34px 0 20px 0;
     outline: none;
     border: none;
     background-color: #fcf5e5;
+    cursor: pointer;
 }
 
 .profile__description {
@@ -38,7 +39,7 @@ padding: 34px 0 20px 0;
     padding-left: 20px;
 }
 
-.profile__picture {
+.profile__avatar {
 margin-right: 20px;
 width: 190px;
 height: 190px;
@@ -64,6 +65,7 @@ height: 190px;
     border: none;
     background-color: #fcf5e5;
     opacity: 70%;
+    cursor: pointer;
     }
 
 .profile__edit-button {

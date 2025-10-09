@@ -1,6 +1,6 @@
 .card {
     max-width: 413px;
-    gap: 40px 20px;
+    
 }
 
 .card__image {
@@ -8,17 +8,20 @@
   height: 413px;
   padding: 0;
   margin: 0;
-  border-radius: 10%;
+  border-radius: 8px;
 }
 
 .card__content {
     display: flex;
     justify-content: space-between;
+    margin-top: 12px;
+    
 }
 
 .card__like-button {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .card__like-icon {
@@ -35,6 +38,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    margin: 0;
 }
 
 @media screen and (max-width: 627px) {
