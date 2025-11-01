@@ -30,3 +30,4 @@ This project was done using HTML as the markup language.It's basically a profile
 CSS was the style sheet used for this project. As we all know we need that little bit of magic to make the page look good. With this property i was able to align everything together, seprate the elements as needed or stack them together. I was able to add some color and make the page look a little more live.
 
 **Link to video**
+https://www.loom.com/share/d0de33fb454f47d78bc12e3283667532
