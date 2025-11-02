@@ -31,14 +31,13 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 288px;
+  max-width: 420px;
 }
 
 .profile__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 20px;
 }
 
 .profile__avatar {
@@ -64,15 +63,18 @@
 
 .profile__button {
   color: #212121;
-  margin-right: 350px;
   border: none;
   background-color: #fcf5e5;
   opacity: 70%;
   cursor: pointer;
+  display: flex;
+  gap: 8px;
+  font-weight: 500;
+  padding: 0;
 }
 
 .profile__button:hover {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .profile__edit-button {

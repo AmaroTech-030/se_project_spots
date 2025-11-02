@@ -20,10 +20,11 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  opacity: 0.4;
 }
 
 .card__like-button:hover {
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .card__like-icon {
@@ -33,7 +34,7 @@
 }
 
 .card__title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 120%;
   color: #212121;
