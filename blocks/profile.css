@@ -6,17 +6,25 @@
   padding: 34px 0 20px 0;
 }
 
+.profile__post-image {
+  background-color: black;
+}
+
 .profile__button-large {
   margin-left: auto;
   align-self: end;
   outline: none;
   border: none;
-  background-color: #fcf5e5;
+  background-color: black;
+  color: white;
   cursor: pointer;
+  width: 157px;
+  height: 57px;
+  border-radius: 8px;
 }
 
 .profile__button-large:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .profile__description {
@@ -88,13 +96,14 @@
     margin-bottom: 20px;
   }
 
-  .profile__picture {
+  .profile__avatar {
     width: 80px;
     height: 80px;
   }
 
   .profile__column {
     align-items: center;
+    text-align: center;
   }
 
   .profile__button {
@@ -105,22 +114,13 @@
     width: 288px;
   }
 
-  .profile__post-image {
-    width: 100%;
-  }
-
   .profile__name {
     margin: 12px 0 6px 0;
-    font-weight: 500;
     font-size: 20px;
-    line-height: 1;
   }
 
   .profile__description {
     margin: 0;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 1;
-    letter-spacing: 0;
   }
 }

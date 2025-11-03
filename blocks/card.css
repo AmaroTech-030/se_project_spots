@@ -34,7 +34,7 @@
 }
 
 .card__title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   color: #212121;
@@ -42,6 +42,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 627px) {
@@ -58,6 +59,6 @@
   }
 
   .card__title {
-    margin: 0;
+    font-size: 16px;
   }
 }
